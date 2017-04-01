@@ -1,12 +1,15 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
+var Clock = require('Clock');
 
-var Countdown = () => {
+var Countdown = React.createClass({
+  render: function () {
     return (
             <div>
-              <h1>Countdown</h1>
+              <Clock totalSeconds={129}/>
             </div>
       );
-  };
+    }
+});
 
 module.exports = Countdown;

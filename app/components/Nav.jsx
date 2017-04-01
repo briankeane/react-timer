@@ -7,12 +7,12 @@ var Nav = () => {
         <div className="top-bar">
           <div className="top-bar-left">
             <ul className="menu">
-              <li className="menu-text">React Timer App</li>
+              <li className="menu-text">Playola</li>
               <li>
-                <IndexLink to="/timer" activeClassName="active-link">Timer</IndexLink>
+                <IndexLink to="/upload" activeClassName="active-link">Upload</IndexLink>
               </li>
               <li>
-                <IndexLink to="/countdown" activeClassName="active-link">Countdown</IndexLink>
+                <Link to="/countdown" activeClassName="active-link">Countdown</Link>
               </li>
             </ul>
           </div>
