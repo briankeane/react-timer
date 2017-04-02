@@ -9,7 +9,7 @@ var Nav = () => {
             <ul className="menu">
               <li className="menu-text">Playola</li>
               <li>
-                <IndexLink to="/upload" activeClassName="active-link">Upload</IndexLink>
+                <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
               </li>
               <li>
                 <Link to="/countdown" activeClassName="active-link">Countdown</Link>
